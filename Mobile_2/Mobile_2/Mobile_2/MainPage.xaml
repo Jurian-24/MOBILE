@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Eerste_app" 
+             x:Class="Eerste_app.MainPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true">
+
+    <StackLayout BackgroundColor="Silver">
+        <!-- Place new controls here -->
+        <Entry x:Name="mijnInput"
+               BackgroundColor="Silver"
+               VerticalOptions="Start"
+               FontSize="Default"
+               TextColor="Blue"
+               />
+
+        <Button Text="KLIK HIER"
+                BackgroundColor="Red"
+                TextColor="White"
+                Clicked="Button_Clicked"
+                />
+
+
+        <Label 
+              x:Name="mijnLabel"
+              Text="Welcome to Xamarin.Form!"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              Rotation="-10"
+              FontSize="Large"
+              TextColor="Lime"
+              />
+
+    </StackLayout>
+</ContentPage>
