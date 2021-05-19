@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Opdracht5.MainPage"
+             >
+
+
+    <StackLayout>
+        <Label x:Name="mijnLabel"
+               Text="zet de lamp an of uit"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"/>
+        <Button Text="AAN"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="LampAan_Clicked"/>
+        <Button Text="UIT"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="LampUit_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
